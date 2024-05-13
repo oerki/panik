@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>
-<a href="kalm"><h1>Panik</h1></a>
+<a href="."><h1>Kalm</h1></a>
 
 
 <style>
@@ -21,17 +21,21 @@
         align-items: center;
         height: 100%;
         margin: 0;
-        animation: blinking 0.3s infinite;
+        animation: blinking 9s infinite;
     }
 
     @keyframes blinking {
-        0%, 49% {
-            color: black;
-            background-color: red;
+        0%, 100% {
+            color: #3d7ec4;
+            background-color: #f7b4f6;
         }
-        50%, 100% {
-            color: red;
-            background-color: black;
+        33% {
+            color: #a44aa3;
+            background-color: #cba8ff;
+        }
+        67% {
+            color: #8861c1;
+            background-color: #98c7df;
         }
     }
 
