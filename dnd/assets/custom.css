@@ -2,6 +2,8 @@
   order: 0;
 }
 
-.md-sidebar--primary {
-  visibility: collapse;
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+      display: none;
+  }
 }
